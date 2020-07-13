@@ -1,0 +1,113 @@
+html {
+    background-color: #F4F4F9;
+}
+.container{
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px auto;
+  width: auto;
+  height: auto;
+  grid-template-areas:
+  "sd hd hd hd hd hd hd hd"
+  "sd main main main main main main main"
+  "sd ft ft ft ft ft ft ft";
+}
+
+.centerGrid{
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 10%;
+  align-content: flex-end;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.nestedGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.nestedResume{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.nestedAchievements{
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 10%;
+  align-content: flex-end;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.nestedContact{
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: 10%;
+  align-content: flex-end;
+  justify-content:space-around;
+  align-items: center;
+}
+
+  .header{
+    grid-area:hd;
+  }
+
+  .footer{
+    grid-area: ft;
+    direction:inherit;
+  }
+
+  .sidebar{
+    grid-area: sd;
+  }
+
+  .content{
+    grid-area: main;
+  }
+
+  nav .nav-list{
+    list-style: none;
+    display: flex;
+    align-content: flex-end;
+    justify-content:space-around;
+    align-items: center;
+    direction: ltr;
+  }
+
+  .logoBox{
+    width: 100px;
+    height: 100px;
+    align:center ;
+    background-image:url('AlShaimaaLogo.jpg');
+    background-size: contain;
+    border-radius: 50px;
+  }
+
+  .button {
+  background-color: #e5c914;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+img{
+  width: 380px;
+  height: 330px;
+  align:center;
+}
+.footerImage{
+  width: 30px;
+  height: 30px;
+  align: center;
+}
