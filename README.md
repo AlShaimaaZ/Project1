@@ -1,4 +1,4 @@
-# AlShaimaa first proportfoliotfoili
+# AlShaimaa first portfolio
 
 First project on udacity Front-End Web Development
 
