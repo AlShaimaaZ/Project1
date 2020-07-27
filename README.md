@@ -1,6 +1,6 @@
 # AlShaimaa first portfolio
 
-First project on udacity Front-End Web Development
+This project is the first project for udacity Front-End Web Development course.
 
 ## Table of Contents
 
